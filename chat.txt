@@ -1,15 +1,17 @@
-Hola Joshua!
+Leo: Hola Joshua!
 
-Hola Leo! 
+Joshua: Hola Leo! 
 
-Que más Joshua, todo bién?
+Leo: Que más Joshua, todo bién?
 
-Todo bien parcero y usd?  
+Joshua: Todo bien parcero y usd?  
 
-Super hermano! aquí practicando Git&Github para tener cuadritos verdes :D
+Leo: Super hermano! aquí practicando Git&Github para tener cuadritos verdes :D
 
-Cevero pana vamos por esos epacios en verde! a ver si nos contratan con buen salaio. 
+Joshua: Cevero pana vamos por esos epacios en verde! a ver si nos contratan con buen salaio. 
 
-Eso! vamos con toda! :), severo practicar con ud. Voy a invitar a este chat a Ferney :D
+Leo: Eso! vamos con toda! :), severo practicar con ud. Voy a invitar a este chat a Ferney :D
 
-Hagale parce! si esto esta bacano. nos toca ir haciendo tambien otros proyectos. armemos una pagina web de prueba... le parece?
+Joshua: Hagale parce! si esto esta bacano. nos toca ir haciendo tambien otros proyectos. armemos una pagina web de prueba... le parece?
+
+Leo: Uff Re bien!! Eso si sería una nota!
