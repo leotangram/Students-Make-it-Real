@@ -8,7 +8,7 @@ Joshua: Todo bien parcero y usd?
 
 Leo: Super hermano! aquí practicando Git&Github para tener cuadritos verdes :D
 
-Joshua: Cevero pana vamos por esos epacios en verde! a ver si nos contratan con buen salaio. 
+Joshua: Cevero pana vamos por esos epacios en verde! a ver si nos contratan jaja!
 
 Leo: Eso! vamos con toda! :), severo practicar con ud. Voy a invitar a este chat a Ferney :D
 
@@ -21,11 +21,13 @@ Repo lightning talks
 
 Nombre de la pagina web: OnixNews
 
-Geek: 
+Geek: jairorjuela 
 Programacion:
-Tecnologia: 
-Musica:
+Tecnologia: Davidmejia025
+Musica: Leo
 Deportes:
-Actualidad de Politica:
-Cocina:
+Actualidad de Politica: Joshua
+Cocina: 
 Medio Ambiente:
+Anime: Ferney
+Mascotas: 
