@@ -15,3 +15,17 @@ Leo: Eso! vamos con toda! :), severo practicar con ud. Voy a invitar a este chat
 Joshua: Hagale parce! si esto esta bacano. nos toca ir haciendo tambien otros proyectos. armemos una pagina web de prueba... le parece?
 
 Leo: Uff Re bien!! Eso si sería una nota!
+
+Repo lightning talks
+
+
+Nombre de la pagina web: OnixNews
+
+Geek: 
+Programacion:
+Tecnologia: 
+Musica:
+Deportes:
+Actualidad de Politica:
+Cocina:
+Medio Ambiente:
