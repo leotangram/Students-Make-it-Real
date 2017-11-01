@@ -35,3 +35,7 @@ Mascotas:
 Leo: Genial! entonces empecemos a invitar a la gente! 
 
 Joshua: Quiero probar esto.
+
+Otro cambio de Joshua.
+
+Yo quiero hacer el pull request...
