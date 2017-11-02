@@ -35,3 +35,5 @@ Mascotas:
 Leo: Genial! entonces empecemos a invitar a la gente! 
 
 Joshua: Quiero probar esto.
+
+Leo: Hola! publiqué unos videos de youtube... pero no se ven... lo extraño es que es el mismo código que se usa en "w3schools"... Help me, please!
