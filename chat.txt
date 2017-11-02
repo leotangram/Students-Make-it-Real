@@ -8,7 +8,7 @@ Joshua: Todo bien parcero y usd?
 
 Leo: Super hermano! aquí practicando Git&Github para tener cuadritos verdes :D
 
-Joshua: Cevero pana vamos por esos epacios en verde! a ver si nos contratan jaja!
+Joshua: Cevero pana vamos por esos epacios en verde!!
 
 Leo: Eso! vamos con toda! :), severo practicar con ud. Voy a invitar a este chat a Ferney :D
 
@@ -35,3 +35,5 @@ Mascotas:
 Leo: Genial! entonces empecemos a invitar a la gente! 
 
 Joshua: Quiero probar esto.
+
+Leo: Hola! publiqué unos videos de youtube... pero no se ven... lo extraño es que es el mismo código que se usa en "w3schools"... Help me, please!
