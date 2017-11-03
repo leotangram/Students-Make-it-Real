@@ -34,7 +34,19 @@
 <p>November 1st 2017: We talked about Database Models and Migrations! This was a fun homework assignment. We had to learn to use SQL so that we would later on understand what ORMs actually do. <a href="https://www.codeschool.com/courses/try-sql" target="_blank">https://www.codeschool.com/courses/try-sql</a></p>
 
 <h1>Q&A for our Instructor.</h1>
-<p></p>
+<form action="/questions" method="POST" >
+   <div class="form-group">
+    <label for="question">New Question: </label>
+    <input type="text" class="form-control" id="question" name="question" placeholder="type question...">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<br>
+<% questions.each do |question| %>
+  <p><%= question %></p>
+<% end %>
+
+
 </div>
 </body>
 </html>
