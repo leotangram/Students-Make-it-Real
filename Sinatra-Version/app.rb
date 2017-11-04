@@ -25,6 +25,11 @@ get '/tecnologia' do
   erb :tecnologia
 end
 
+get '/answers' do
+  erb :answers
+end
+
+
 post '/questions' do
   questions << params[:question]
   redirect to('/')
