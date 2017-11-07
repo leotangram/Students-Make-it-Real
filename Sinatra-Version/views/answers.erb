@@ -70,53 +70,33 @@
 </nav>
 
 
-
-
-  
-<!-- Aquí tu solución -->
 <div class="container">
-  <h1>Student Questions</h1>
-  <br>
-  <table class="table table-striped">
-    <thead>
-      <tr>
-        <th>Technology</th>
-        <th>Student</th>
-        <th>Question</th>
-        <th>Did you try google.com?</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Sinatra</td>
-        <td>Joshua</td>
-        <td>Como puedo agregar layouts a una aplicación hecha en Sinatra?</td>
-        <td>Si. Intente buscar lo siguiente => Layouts Sinatra. => Partials Sinatra</td>
-      </tr>
-    </tbody>
-  </table>
-<br>
- <h1>Instructor Answers</h1>
- <br>
-  <form action="/answers" method="POST">
-    <div class="form-group">
-    <input type="text" class="form-control" name="answer" placeholder="type answer...">
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
-  <br>
-
-  <% answers.each do |answer| %>
-    <div class="alert alert-success">
-    <%= answer %>
-    </div>
-  <% end %>
-
- 
-
-
-  
-
+  <div class="row">
+    <div class="col-md-9">
+      <h3>Student Questions</h3>
+      <br>
+      <% questions.each do |question| %>
+        <div class="alert alert-success">
+          <%= question %>
+        </div>
+      <% end %>
+      <br>
+      <h3>Instructor Answers</h3>
+      <br>
+      <form action="/answers" method="POST">
+        <div class="form-group">
+          <input type="text" class="form-control" name="answer" placeholder="type answer...">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <br>
+      <% answers.each do |answer| %>
+        <div class="alert alert-info">
+          <%= answer %>
+        </div>
+      <% end %>
+    </div> 
+  </div>
 </div>
 </body>
 </html>

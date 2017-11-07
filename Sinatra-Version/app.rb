@@ -1,11 +1,11 @@
 require 'sinatra'
 
 questions = [
-"How old is Ozu?"
+"1. Como puedo agregar layouts a una aplicación hecha en Sinatra?"
 ]
 
 answers = [
-"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+"1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 ]
 
 
@@ -31,13 +31,13 @@ get '/tecnologia' do
 end
 
 get '/answers' do
-  erb :answers, locals: {answers: answers}
+  erb :answers, locals: {questions: questions, answers: answers}
 end
 
 
 post '/questions' do
   questions << params[:question]
-  redirect to('/')
+  redirect to('/answers')
 end
 
 post '/answers' do
