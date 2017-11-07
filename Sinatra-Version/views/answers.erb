@@ -13,9 +13,69 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>  
+      </button>
+      <a class="navbar-brand" href="/">MakeItNews!</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <!-- Subjects -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Subjects <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/pages/geek.html">Geek: Jairo</a></li>
+            <li><a href="/pages/programacion.html">Programacion: Nicolas</a></li>
+            <li><a href="/tecnologia">Tecnologia: David</a></li>
+            <li><a href="musica">Musica: Leo</a></li>
+            <li><a href="/pagse/deportes.html">Deportes: Jonathan</a></li>
+            <li><a href="politica">Politica: Joshua</a></li>
+            <li><a href="/pages/cocina.html">Cocina: Victor</a></li>
+            <li><a href="/pages/medioambiente">Medio Ambiente: Angie</a></li>
+            <li><a href="/pages/anime.html">Anime: Ferney</a></li>
+            <li><a href="/mascotas">Mascotas: Juan</a></li>
+          </ul>
+        </li>
+      </ul>
+      <!-- Ask instructor form -->
+      <form action="/questions" method="POST" class="navbar-form navbar-left">
+         <div class="form-group">
+          <input type="text" class="form-control" id="question" name="question" placeholder="type question...">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <!-- Instructor Answers -->
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/answers">Instructor Answers</a></li>
+        <!-- Social App -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Social App<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Students Profiles</a></li>
+            <li><a href="#">Class Pictures</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+
+  
 <!-- Aquí tu solución -->
 <div class="container">
-  <h1 style="margin-top: 80px">Instructor Answers</h1>
+  <h1>Student Questions</h1>
   <br>
   <table class="table table-striped">
     <thead>
@@ -24,7 +84,6 @@
         <th>Student</th>
         <th>Question</th>
         <th>Did you try google.com?</th>
-        <th>Instructors Answer</th>
       </tr>
     </thead>
     <tbody>
@@ -33,15 +92,31 @@
         <td>Joshua</td>
         <td>Como puedo agregar layouts a una aplicación hecha en Sinatra?</td>
         <td>Si. Intente buscar lo siguiente => Layouts Sinatra. => Partials Sinatra</td>
-        <td class="success">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</td>
       </tr>
     </tbody>
   </table>
+<br>
+ <h1>Instructor Answers</h1>
+ <br>
+  <form action="/answers" method="POST">
+    <div class="form-group">
+    <input type="text" class="form-control" name="answer" placeholder="type answer...">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  <br>
+
+  <% answers.each do |answer| %>
+    <div class="alert alert-success">
+    <%= answer %>
+    </div>
+  <% end %>
+
+ 
+
+
+  
+
 </div>
 </body>
 </html>
