@@ -4,7 +4,8 @@ questions = [
 "1. Como puedo agregar layouts a una aplicación hecha en Sinatra?",
 "2. Con la poca experiencia que tenemos hasta este momento podriamos comenzar a contestar preguntas en stackoverflow? alguna sugerencia para comenzar?",
 "3. Con la poca experiencia que tenemos deberiamos intentar contribuir a algun proyecto open source? alguna sugerencia?",
-"4. Los estudiantes deberiamos hacer proyectos juntos? organizarnos para estudiar fuera de los horarios de la clase? organizar hackathons? alguna sugerencia?"
+"4. Los estudiantes deberiamos hacer proyectos juntos? organizarnos para estudiar fuera de los horarios de la clase? organizar hackathons? alguna sugerencia?",
+"5. Cual es la diferencia entre la programación web y la programación no web?"
 ]
 
 answers = [
