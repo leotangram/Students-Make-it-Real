@@ -25,6 +25,23 @@ get '/answers' do
   erb :answers
 end
 
+get '/musicapp' do
+  @allSongs = Song.all
+  erb :musicapp
+end
+
+post '/musicapp/new' do
+
+   name = params[:name]
+   band = params[:band]
+   url = params[:url]
+   obj = {  :name    => name,
+            :band    => band,
+            :url     => url }
+   Song.create(obj)
+   redirect '/musicapp' 
+end
+
 
 post '/questions' do
   redirect to('/answers')

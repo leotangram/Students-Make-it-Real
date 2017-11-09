@@ -1,0 +1,35 @@
+<div class="container">
+<h1>Welcome to MusicApp!</h1>
+<div class="row">
+  <div class="col-md-6">
+    
+
+<form action="/musicapp/new" method="POST">
+  <input type="text" name="name" placeholder="song name">
+  <input type="text" name="band" placeholder="band name">
+  <input type="text" name="url" placeholder="youtube url">
+  <br>
+  <br>
+  <button type="submit">Send It Over!</button>
+</form>
+<br>
+
+<h3>Song of The Day</h3>
+<p>Our MusicApp chose this song specially for you to listen to today!</p>
+ <a href="<%=@allSongs.sample[:url] %>" target="blank">Click to Listen Now!</a>
+ <br>
+
+<h3>Or Listen to a different song</h3>
+
+<% @allSongs.each do |song| %>
+<div class="thumbnail">
+<li>Song Title: <%= song[:name] %></li>
+<li>Band: <%= song[:band] %></li>
+<li><a href="<%= song[:url] %>" target="_blank">Click To Listen Now!</a></li>
+</div>
+<% end %>
+</div>
+
+
+  </div>
+</div>
