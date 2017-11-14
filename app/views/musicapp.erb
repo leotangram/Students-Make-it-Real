@@ -17,7 +17,9 @@
 
 <h3>Song of The Day</h3>
 <p>Our MusicApp chose this song specially for you to listen to today!</p>
+<%  if  @allSongs.any?%>
  <a href="<%=@allSongs.sample[:url] %>" target="blank">Click to Listen Now!</a>
+ <% end%>
  <br>
 
 <h3>Or Listen to a different song</h3>
