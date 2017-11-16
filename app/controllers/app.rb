@@ -9,6 +9,10 @@ get '/español' do
   erb :español
 end
 
+get '/studython' do
+  erb :studython
+end
+
 get '/musicapp' do
   @allSongs = Song.all
   erb :musicapp
