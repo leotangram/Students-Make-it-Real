@@ -1,4 +1,4 @@
-### Hola Companeros!
+### Hola Compañeros!
 
 ###Esto lo voy a hacer con la rama Joshua!
 
