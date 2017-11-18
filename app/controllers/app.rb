@@ -1,5 +1,10 @@
 require 'sinatra'
 
+
+get '/javascript' do
+  erb :javascript
+end
+
 get '/' do
   erb :index
 end
