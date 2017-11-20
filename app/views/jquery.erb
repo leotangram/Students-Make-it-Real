@@ -1,0 +1,65 @@
+<div class="container">
+<h1>Let's have some fun with jQuery! Click me to fire a popup and turn this text purple.</h1>
+<ul>
+  <li>If clicked turn purple</li>
+  <li>If clicked turn purple</li>
+  <li>If clicked turn purple</li>
+  <li>If clicked turn purple</li>
+  <li>If clicked turn purple</li>
+  <li>If clicked turn purple</li>
+  <li>If clicked turn purple</li>
+</ul>
+
+
+<p>Click on lorem impsum paragraph to fade it out. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<h1>Click to erase pets you dont like</h1>
+<img src="https://s7d2.scene7.com/is/image/PetSmart/ARTHMB-HowToHelpYourCatHaveFewerHairballs-20160818?$AR1104$">
+<img src="https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a.jpeg">
+<img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-03/3/16/enhanced/webdr09/enhanced-7711-1425417143-1.jpg?downsize=715:*&output-format=auto&output-quality=auto">
+<img src="https://i.kinja-img.com/gawker-media/image/upload/s--YuNTpCKK--/c_scale,fl_progressive,q_80,w_800/mcqy7lzzjyxoubuy2o9i.jpg">
+<img src="https://static1.squarespace.com/static/5369465be4b0507a1fd05af0/5397d14be4b06a5454f5633c/5397d15ae4b06a5454f56351/1404441173879/neo_001126-02.jpg?format=1500w">
+<img src="http://www.whales.org.au/news/images/humpback-s.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Humpback_stellwagen_edit.jpg/1200px-Humpback_stellwagen_edit.jpg">
+<img src="https://kids.nationalgeographic.com/content/dam/kids/photos/articles/Other%20Explore%20Photos/R-Z/Wacky%20Weekend/Wild%20Cats/ww-wild-cats-tiger.adapt.945.1.jpg">
+<img src="http://www.australia.com/etc/designs/tourismaustralia/clientlibs/imgs/fallback/kangaroo_800_600.jpg">
+<img src="http://3dogmedia.com/wp-content/uploads/2016/08/120251710-632x3531.jpg">
+<img src="https://data.whicdn.com/images/5516039/large.jpg">
+<img src="https://www.petfinder.com/wp-content/uploads/2012/11/hamster-facts-about-small-mammals-as-pets-thinkstock-155233157.jpg">
+<h2>What else can we do?</h2>
+
+<script type="text/javascript">
+  // select and manipulate the h1
+  $("h1").on("click", function(){
+    alert("clicked h1!")
+    $(this).css("color","purple")
+  })
+
+  // select and manipulate the lis
+  $("li").on("click", function(){
+    $(this).css("color","purple")
+  })
+
+  // select and manipulate the paragraph
+  $("p").on("click", function(){
+    $(this).fadeOut(1000)
+  })
+
+  // fix image width with jquery
+  $("img").css("width","500px")
+
+  // select and manipulate the pic
+  $("img").on("click", function(){
+    $(this).slideUp()
+  })
+
+</script>
+
+
+
+</div>

@@ -5,6 +5,10 @@ get '/javascript' do
   erb :javascript
 end
 
+get '/jquery' do
+  erb :jquery
+end
+
 get '/' do
   erb :index
 end
