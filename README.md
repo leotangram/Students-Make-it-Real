@@ -15,7 +15,7 @@ function(class){
 }
 ~~~
 
-Puedo me comentan que les parece.
+Bueno me comentan que les parece.
 
 Saludo para todos
 
