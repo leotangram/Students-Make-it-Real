@@ -9,7 +9,7 @@
     Es interesante como se ve esto
 
 ~~~
-podemos escribir y compartir código de esta forma
+`podemos` escribir y `compartir` código de `esta` forma
 function(class){
   console.log("was fun today!")
 }
