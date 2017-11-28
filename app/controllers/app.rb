@@ -1,10 +1,5 @@
 require 'sinatra'
 
-
-get '/javascript' do
-  erb :javascript
-end
-
 get '/jquery' do
   erb :jquery
 end

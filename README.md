@@ -1,12 +1,7 @@
-### Hola Compañeros!
+### Hola Todos!
 
-### Esto lo voy a hacer con la rama Joshua!
 
-### Me Interesa saber como cual seria el siguiente paso hacer merge en github?
-
-## Les cuento que porfín aprendí un poco de mark down lol...
-
-    Es interesante como se ve esto
+Es interesante como se ve esto
 
 
 ```javascript
@@ -23,7 +18,6 @@ function(today){
 //bueno me despido
 alert("goodbye! great times studying!")
 ```
-Bueno me comentan que les parece.
 
 Saludo para todos
 
